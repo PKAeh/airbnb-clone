@@ -196,3 +196,24 @@
     flex-grow: 1;
     background-color: green;
 }
+
+.title-contant {
+    padding: 300px 500px 100px 0;
+
+}
+
+.title-contant h1 {
+    width: 600px;
+    font-size: 4em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.title-contant a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 10px;
+}
