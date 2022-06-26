@@ -41,7 +41,16 @@
     color: white;
 }
 
-.logo {}
+.logo>a>div {
+    display: flex;
+    align-items: center;
+}
+
+.logo>a>div>span {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
 .member {
     display: flex;
