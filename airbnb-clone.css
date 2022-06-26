@@ -20,7 +20,7 @@
     color: white;
 }
 
-/* ============ nav ===========  */
+/* ============ header ===========  */
 .header-background {
     width: 100%;
     background-color: aqua;
@@ -33,6 +33,8 @@
     height: 800px;
     margin: 0 80px;
 }
+
+/* ============ nav ===========  */
 
 .nav {
     display: flex;
@@ -87,12 +89,25 @@
     border-radius: 50px;
 }
 
+.account {
+    background-color: aliceblue;
+    padding: 0 10px;
+    border-radius: 50px;
+
+}
+
+/* ============ search ===========  */
+
 .search {
     display: flex;
     width: 100%;
     height: 100px;
     background-color: yellow;
 }
+
+
+
+/* ============ title ===========  */
 
 .title {
     flex-grow: 1;
