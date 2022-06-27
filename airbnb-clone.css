@@ -202,19 +202,19 @@
     flex-grow: 1;
 }
 
-.title-contant {
+.title-content {
     padding: 300px 500px 100px 0;
 
 }
 
-.title-contant h1 {
+.title-content h1 {
     width: 600px;
     font-size: 4em;
     color: white;
     margin-bottom: 15px;
 }
 
-.title-contant a {
+.title-content a {
     text-decoration: none;
     padding: 10px 20px;
     background-color: aliceblue;
