@@ -293,3 +293,26 @@
 .tourist-attraction a div p:nth-child(1) {
     font-weight: bold;
 }
+
+/* ============ accommodations ===========  */
+
+.accommodations {
+    width: 100%;
+}
+
+.accommodations>h1 {
+    margin: 0 80px;
+}
+
+.accommodations-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 80px;
+    background-color: aqua;
+}
+
+.accommodation {}
+
+.accommodation img {
+    width: 300px;
+}
