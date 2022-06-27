@@ -170,7 +170,6 @@
 }
 
 .search-item:hover {
-
     background-color: rgba(61, 60, 60, 0.212);
     border-radius: 50px;
     padding: 12px 20px;
@@ -191,8 +190,6 @@
 .search-icon:hover {
     background-color: #ce0e41;
 }
-
-
 
 
 
@@ -296,22 +293,54 @@
 /* ============ accommodations ===========  */
 
 .accommodations {
+    display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
 }
 
-.accommodations>h1 {
+.accommodations-group {
+    width: 100%;
     margin: 0 80px;
 }
 
 .accommodations-list {
+    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
-    margin: 10px 80px;
-    background-color: aqua;
 }
 
-.accommodation {}
+.accommodation {
+    width: 100%;
+
+}
+
+.accommodation:not(:last-child) {
+    margin-right: 10px;
+}
 
 .accommodation img {
-    width: 590px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.accommodation p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.accommodation:nth-child(1) {
+    order: 0;
+}
+
+.accommodation:nth-child(2) {
+    order: 2;
+}
+
+.accommodation:nth-child(3) {
+    order: 1;
+}
+
+.accommodation:nth-child(4) {
+    order: 3;
 }
