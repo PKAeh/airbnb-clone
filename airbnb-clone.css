@@ -315,7 +315,12 @@
 
 }
 
-.accommodation:not(:last-child) {
+.accommodations-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.accommodations-list a:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -329,18 +334,18 @@
     font-size: 1.2em;
 }
 
-.accommodation:nth-child(1) {
+.accommodations-list a:nth-child(1) {
     order: 0;
 }
 
-.accommodation:nth-child(2) {
+.accommodations-list a:nth-child(2) {
     order: 2;
 }
 
-.accommodation:nth-child(3) {
+.accommodations-list a:nth-child(3) {
     order: 1;
 }
 
-.accommodation:nth-child(4) {
+.accommodations-list a:nth-child(4) {
     order: 3;
 }
