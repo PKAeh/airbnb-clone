@@ -310,10 +310,6 @@
     display: flex;
 }
 
-.accommodation {
-    width: 100%;
-
-}
 
 .accommodations-list a {
     text-decoration: none;
@@ -322,6 +318,11 @@
 
 .accommodations-list a:not(:last-child) {
     margin-right: 10px;
+}
+
+.accommodations-list a {
+    width: 100%;
+
 }
 
 .accommodation img {
@@ -348,4 +349,14 @@
 
 .accommodations-list a:nth-child(4) {
     order: 3;
+}
+
+
+/* ============ activities ===========  */
+.activities {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
 }
