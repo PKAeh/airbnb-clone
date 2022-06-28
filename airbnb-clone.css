@@ -423,7 +423,6 @@
 .site-map {
     display: flex;
     width: 100%;
-    margin-bottom: 30px;
     background-color: #f7f7f7;
     border-top: 1px solid #817f7f8a;
 }
@@ -432,7 +431,7 @@
     display: flex;
     width: 100%;
     margin: 0 80px;
-    padding: 30px 0;
+    padding: 30px 0 15px 0;
 }
 
 .site-map-list {
@@ -456,7 +455,80 @@
     font-size: 0.9em;
 }
 
+.site-map-list li a:hover {
+    text-decoration: underline;
+}
+
 .site-map-list p,
 .site-map-list li {
     margin-bottom: 10px;
+}
+
+/* ============ site-map ===========  */
+footer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    margin: 0 80px;
+    border-top: 1px solid #817f7f8a;
+    padding-top: 10px;
+}
+
+.footer-container:not(:last-child) {
+    margin-right: 20px;
+}
+
+.copyright {
+    font-size: 0.9em;
+    width: 50%;
+}
+
+.copyright div a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright div a:hover {
+    text-decoration: underline;
+}
+
+.language {
+    text-align: center;
+    width: 40%;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+.language a {
+    color: black;
+    text-decoration: none;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+.language a:first-child {
+    margin-right: 10px;
+}
+
+.social {
+    width: 10%;
+    text-align: end;
+}
+
+.social a {
+    margin: 0 5px;
+}
+
+.social a img {
+    width: 16px;
+    text-align: right;
 }
