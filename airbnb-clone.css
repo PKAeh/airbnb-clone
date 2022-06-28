@@ -295,8 +295,6 @@
 .accommodations {
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -353,38 +351,68 @@
 .activities {
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
     background-color: black;
     color: white;
 }
 
-.activitie-group {
+.activities-group {
     width: 100%;
     margin: 0 80px;
     padding: 50px 0;
 }
 
-.activitie-list {
+.activities-list {
     margin-top: 10px;
     display: flex;
 }
 
-.activitie-list a {
+.activities-list a {
     width: 100%;
     text-decoration: none;
     color: white;
 
 }
 
-.activitie-list a:not(:last-child) {
+.activities-list a:not(:last-child) {
     margin-right: 10px;
 }
 
-.activitie-list img {
+.activities-list img {
     width: 100%;
     border-radius: 15px;
 }
 
 /* ============ activities ===========  */
+
+.host {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.host-group {
+    width: 100%;
+    margin: 0 80px;
+    padding: 50px 0;
+}
+
+.host-list {
+    margin-top: 10px;
+    display: flex;
+}
+
+.host-list a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+
+}
+
+.host-list a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.host-list img {
+    width: 100%;
+    border-radius: 15px;
+}
